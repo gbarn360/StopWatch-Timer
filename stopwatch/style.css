@@ -1,0 +1,119 @@
+
+#body{
+    background: linear-gradient(#FBEE97,#ADEDD5);
+    padding-bottom: 100px;
+    font-family: monospace;
+}
+
+#timer{
+    padding-top: 30%;
+    text-align: center;
+    font-size: 10em;
+    color: #eef6f1;
+    letter-spacing: 1px;
+    text-shadow: #939FAE  2px 5px;
+}
+#buttons{
+    text-align: center;
+    margin-top: 6%;
+
+}
+.btn{
+    margin: 2em;
+    padding: 1em 2em;
+    border-radius: 5em;
+    background: #eef6f1;
+    color: #939FAE;
+    border: solid #939FAE  2px ;
+    font-family: monospace;
+
+}
+#bar{
+    height:900px;
+    width:900px;
+    margin-left: 30%;
+    border-radius: 50%;
+
+    position: relative;
+
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #eef6f1;
+    border: solid 1px #939FAE;
+    animation: circle linear 1s infinite;
+    margin-left: 48.1%;
+    margin-top: 48.4%;
+    position: absolute;
+}
+#initOptions{
+    position: absolute;
+}
+#initOptions #countDown{
+    width: 120px;
+    margin-top: 0%;
+
+}
+#initOptions #countUp{
+    margin-top: 0;
+}
+#options #start{
+    display: none ;
+
+}
+#options #stop{
+    display: none;
+}
+#options #reset{
+    display: none;
+}
+#options #hour{
+    display: none;
+    width: 25px;
+
+}
+#options #minute{
+    display: none;
+    width: 25px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+@keyframes circle{
+    0%{
+        transform:rotate(0deg)
+        translateY(-445px)
+        scale(1);
+    }
+    50%{
+        transform: rotate(180deg)
+        translateY(-465px)
+    }
+    100%{
+        transform:rotate(360deg)
+        translateY(-445px)
+        scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
